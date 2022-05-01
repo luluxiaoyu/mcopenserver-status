@@ -2,7 +2,7 @@
 window.Config = {
 
   // 站点名
-  SiteName: 'MSL2',
+  SiteName: 'MSL2资源状态监控',
 
   // 站点链接
   SiteUrl: '/',

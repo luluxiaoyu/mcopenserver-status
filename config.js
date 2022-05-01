@@ -2,7 +2,7 @@
 window.Config = {
 
   // 站点名
-  SiteName: '我的世界开服器服务器资源监控',
+  SiteName: 'MSL2',
 
   // 站点链接
   SiteUrl: '/',
@@ -11,17 +11,18 @@ window.Config = {
   // 只需填写域名部分，默认为官网域名
   // 因官网 API 时不时的会 CROS 报错，可填自定义反代域名
   // 详见 https://github.com/yb/uptime-status/ 说明
-  ApiDomain: 'statusapi.nstar.xyz',
+  ApiDomain: 'statusapi.nstarmc.cn',
 
   // UptimeRobot Api Keys
   // 支持 Monitor-Specific 和 Read-Only 两只 Api Key
   ApiKeys: [
-    'm788342392-05ac4c42b354718ebef2bb9f',
-    'm788342405-0a206340be6d43770cff0146',
-    'm788342417-d0cf0d17dbf56df657318143',
-    'm788342425-5ebbfbf2e72166a195e16e2d',
-    'm788342427-fc22feb81417df2045fecb13',
-    'm788342434-52599b046d4db91b340c1e2f',
+    'm791611581-01290ce586815b5798e119ff',
+    'm791611464-ba3aa3ccc1580f3a41d0d823',
+    'm791611476-fcaf2288cb53bc7d0d154195',
+    'm791611513-88360af4b530b5b7622464a3',
+    'm791611597-655372ed483990965b510ac5',
+    'm791611534-adb4b1d42ce5616c7ef6dc7e',
+    'm791611539-7540cd6c930cf49f407640f8',
   ],
 
   // 是否显示监测站点的链接
@@ -34,10 +35,6 @@ window.Config = {
 
   // 导航栏菜单
   Navi: [
-    {
-      text: '开服器帮助文档',
-      url: 'https://msdoc.nstar.xyz'
-    },
     {
       text: '我的世界官网',
       url: 'https://minecraft.net/'
